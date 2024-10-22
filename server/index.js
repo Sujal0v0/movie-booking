@@ -4,7 +4,7 @@ dotenv.config();
 import indexRouter from "./routes/index.js";
 import morgan from "morgan";
 import mongoose from "mongoose";
-
+import cors from "cors";
 mongoose
   .connect(process.env.DB_URL)
   .then(() => {
@@ -16,6 +16,7 @@ mongoose
 const app = express();
 const PORT = Number(process.env.PORT);
 
+app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 app.use("/assets", express.static("public"));
