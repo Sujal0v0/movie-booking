@@ -37,7 +37,7 @@ router.post(
       }
       const result = await userController.create(req.body);
 
-      res.json({ message: "User registered successfully.", data: result });
+      res.json({ message: "User registered successfully." });
     } catch (error) {
       next(error);
     }
