@@ -28,7 +28,14 @@ const router = express.Router();
 
 router.get("/", async (req, res, next) => {
   try {
-    const result = await movieController.list();
+    const { page, limit, title } = req.query;
+    const search = { title };
+    const result = await movieController.list({ page, limit, search });
+    console.log(result);
+    if (result && result.poster) {
+      result.poster = result.poster.replace(/^public[\\/]/, "/");
+      console.log(result.poster);
+    }
     res.json({ message: "Listed all movies successfully.", data: result });
   } catch (error) {
     next(error);
@@ -39,6 +46,12 @@ router.get("/:slug", async (req, res, next) => {
   try {
     const { slug } = req.params;
     const result = await movieController.getBySlug(slug);
+
+    if (result && result.poster) {
+      result.poster = result.poster.replace(/^public[\\/]/, "/");
+      console.log(result.poster);
+    }
+
     res.json({
       message: `Movie of with slug ${slug} displayed successfully.`,
       data: result,
@@ -56,6 +69,7 @@ router.post(
     try {
       if (req.file) {
         req.body.poster = req.file.path;
+        // .replace(/^public\//, "");
       }
       next();
     } catch (e) {

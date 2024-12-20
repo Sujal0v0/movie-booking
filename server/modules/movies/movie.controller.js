@@ -17,8 +17,58 @@ const create = async (payload) => {
   return await movieModel.create(payload);
 };
 //movie list (list)
-const list = async () => {
-  return movieModel.find();
+const list = async ({ page = 1, limit = 10, search }) => {
+  const query = [];
+
+  if (search.title) {
+    query.push({
+      $match: {
+        title: { $regex: search.title, $options: "i" },
+      },
+    });
+  }
+  //Pagination
+  query.push(
+    {
+      $facet: {
+        metadata: [
+          {
+            $count: "total",
+          },
+        ],
+        data: [
+          {
+            $skip: (+page - 1) * +limit,
+          },
+          {
+            $limit: +limit,
+          },
+        ],
+      },
+    },
+    {
+      $addFields: {
+        total: {
+          $arrayElemAt: ["$metadata.total", 0],
+        },
+      },
+    },
+    {
+      $project: {
+        metadata: 0,
+        "data.createdBy": 0,
+      },
+    }
+  );
+  console.log(query);
+  const result = await movieModel.aggregate(query);
+  return {
+    total: result[0]?.total || 0,
+    movies: result[0]?.data,
+    page: +page,
+    limit: +limit,
+    skip: (+page - 1) * +limit,
+  };
 };
 //get one movie (getBySlug)
 const getBySlug = async (slug) => {

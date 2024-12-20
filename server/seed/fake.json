@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Inception",
+    "slug": "inception",
+    "duration": "2h 28m",
+    "synopsis": "Inception follows Dom Cobb, a skilled thief who enters others' dreams to steal secrets...",
+    "releasedDate": "2010-07-16",
+    "endDate": "2010-09-16",
+    "seats": 150,
+    "price": 300
+  },
+  {
+    "title": "The Matrix",
+    "slug": "the-matrix",
+    "duration": "2h 16m",
+    "synopsis": "The Matrix explores a dystopian future where humanity unknowingly lives in a simulated reality...",
+    "releasedDate": "1999-03-31",
+    "endDate": "1999-05-31",
+    "seats": 120,
+    "price": 250
+  },
+  {
+    "title": "Interstellar",
+    "slug": "interstellar",
+    "duration": "2h 49m",
+    "synopsis": "Interstellar tells the story of Cooper, a former pilot, who joins a team of explorers...",
+    "releasedDate": "2014-11-07",
+    "endDate": "2015-01-07",
+    "seats": 200,
+    "price": 400
+  },
+  {
+    "title": "The Dark Knight",
+    "slug": "the-dark-knight",
+    "duration": "2h 32m",
+    "synopsis": "The Dark Knight continues Batman's mission to bring peace to Gotham City, facing a new threat...",
+    "releasedDate": "2008-07-18",
+    "endDate": "2008-09-18",
+    "seats": 180,
+    "price": 450
+  },
+  {
+    "title": "Pulp Fiction",
+    "slug": "pulp-fiction",
+    "duration": "2h 34m",
+    "synopsis": "Pulp Fiction presents an anthology of crime stories set in Los Angeles, focusing on seemingly...",
+    "releasedDate": "1994-10-14",
+    "endDate": "1995-01-14",
+    "seats": 110,
+    "price": 220
+  },
+  {
+    "title": "Fight Club",
+    "slug": "fight-club",
+    "duration": "2h 19m",
+    "synopsis": "Fight Club delves into the life of an unnamed narrator who forms an underground fight club...",
+    "releasedDate": "1999-10-15",
+    "endDate": "2000-01-15",
+    "seats": 160,
+    "price": 280
+  },
+  {
+    "title": "Gladiator",
+    "slug": "gladiator",
+    "duration": "2h 35m",
+    "synopsis": "Gladiator follows the story of Maximus, a Roman general betrayed and sold into slavery...",
+    "releasedDate": "2000-05-05",
+    "endDate": "2000-08-05",
+    "seats": 140,
+    "price": 260
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "slug": "the-shawshank-redemption",
+    "duration": "2h 22m",
+    "synopsis": "The Shawshank Redemption tells the story of Andy Dufresne, a banker wrongfully convicted...",
+    "releasedDate": "1994-09-23",
+    "endDate": "1994-12-23",
+    "seats": 130,
+    "price": 350
+  },
+  {
+    "title": "Forrest Gump",
+    "slug": "forrest-gump",
+    "duration": "2h 22m",
+    "synopsis": "Forrest Gump narrates the remarkable life of a man with a low IQ but a heart of gold...",
+    "releasedDate": "1994-07-06",
+    "endDate": "1994-10-06",
+    "seats": 150,
+    "price": 210
+  },
+  {
+    "title": "Titanic",
+    "slug": "titanic",
+    "duration": "3h 14m",
+    "synopsis": "Titanic tells the story of the ill-fated voyage of the RMS Titanic and a romantic affair...",
+    "releasedDate": "1997-12-19",
+    "endDate": "1998-03-19",
+    "seats": 180,
+    "price": 430
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "slug": "the-lord-of-the-rings-fellowship",
+    "duration": "2h 58m",
+    "synopsis": "The first part of Tolkien's epic, The Fellowship of the Ring follows Frodo Baggins...",
+    "releasedDate": "2001-12-19",
+    "endDate": "2002-03-19",
+    "seats": 140,
+    "price": 340
+  },
+  {
+    "title": "The Godfather",
+    "slug": "the-godfather",
+    "duration": "2h 55m",
+    "synopsis": "The Godfather follows the powerful Corleone crime family, led by Vito Corleone...",
+    "releasedDate": "1972-03-24",
+    "endDate": "1972-06-24",
+    "seats": 100,
+    "price": 440
+  },
+  {
+    "title": "Schindler's List",
+    "slug": "schindlers-list",
+    "duration": "3h 15m",
+    "synopsis": "Schindler's List recounts the true story of Oskar Schindler, who saved over a thousand Jews...",
+    "releasedDate": "1993-11-30",
+    "endDate": "1994-02-28",
+    "seats": 120,
+    "price": 290
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "slug": "the-silence-of-the-lambs",
+    "duration": "1h 58m",
+    "synopsis": "The Silence of the Lambs tells the story of Clarice Starling, a young FBI trainee...",
+    "releasedDate": "1991-02-14",
+    "endDate": "1991-04-14",
+    "seats": 140,
+    "price": 230
+  },
+  {
+    "title": "Saving Private Ryan",
+    "slug": "saving-private-ryan",
+    "duration": "2h 49m",
+    "synopsis": "Saving Private Ryan follows a group of soldiers tasked with finding and bringing home...",
+    "releasedDate": "1998-07-24",
+    "endDate": "1998-10-24",
+    "seats": 150,
+    "price": 420
+  },
+  {
+    "title": "The Green Mile",
+    "slug": "the-green-mile",
+    "duration": "3h 9m",
+    "synopsis": "The Green Mile follows the lives of death row guards and inmates, particularly focusing...",
+    "releasedDate": "1999-12-10",
+    "endDate": "2000-03-10",
+    "seats": 130,
+    "price": 210
+  },
+  {
+    "title": "Goodfellas",
+    "slug": "goodfellas",
+    "duration": "2h 26m",
+    "synopsis": "Goodfellas recounts the rise and fall of mob associate Henry Hill and his life in organized...",
+    "releasedDate": "1990-09-19",
+    "endDate": "1990-12-19",
+    "seats": 110,
+    "price": 320
+  },
+  {
+    "title": "Braveheart",
+    "slug": "braveheart",
+    "duration": "2h 58m",
+    "synopsis": "Braveheart follows the story of William Wallace, a Scottish rebel who leads his countrymen...",
+    "releasedDate": "1995-05-24",
+    "endDate": "1995-08-24",
+    "seats": 160,
+    "price": 270
+  },
+  {
+    "title": "The Lion King",
+    "slug": "the-lion-king",
+    "duration": "1h 29m",
+    "synopsis": "The Lion King tells the story of Simba, a young lion who flees his kingdom after his father...",
+    "releasedDate": "1994-06-24",
+    "endDate": "1994-09-24",
+    "seats": 200,
+    "price": 300
+  },
+  {
+    "title": "Jurassic Park",
+    "slug": "jurassic-park",
+    "duration": "2h 7m",
+    "synopsis": "Jurassic Park introduces audiences to a world where dinosaurs have been brought back...",
+    "releasedDate": "1993-06-11",
+    "endDate": "1993-09-11",
+    "seats": 170,
+    "price": 410
+  }
+]

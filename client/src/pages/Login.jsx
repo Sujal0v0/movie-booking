@@ -21,7 +21,7 @@ const Login = () => {
       const { data: token, message } = data;
       setMsg(message);
       setToken("token", token);
-      navigate("/admin");
+      navigate("/");
     } catch (error) {
       const errMsg = error?.response?.data?.message || "Something went wrong!!";
       setError(errMsg);
@@ -40,7 +40,7 @@ const Login = () => {
     const token = localStorage.getItem("token");
     if (token) {
       setTimeout(() => {
-        navigate("/admin");
+        navigate("/");
       }, 2000);
     }
   }, [navigate]);
@@ -104,12 +104,12 @@ const Login = () => {
             Login
           </button>
         </div>
-        <Link className="small text-muted" href="#!" to="/forget-password">
+        <Link className="small text-muted" to="/forget-password">
           Forgot password?
         </Link>
         <p className="mb-5 pb-lg-2" style={{ color: "#393f81" }}>
           Don&apos;t have an account?{" "}
-          <Link href="#!" style={{ color: "#393f81" }} to="/register">
+          <Link style={{ color: "#393f81" }} to="/register">
             Register here
           </Link>
         </p>
